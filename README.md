@@ -40,9 +40,5 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-
-Here’s a rephrased description for your README.md:
-
----
-// about 
+--------------   about -------------------------
 This project utilizes Redux Toolkit for state management and API calls. The `components` folder contains reusable components, including `FormFilter.tsx`, which provides select options and a search bar, and `PokemonCard.tsx`. In the `services` folder, the `apis.ts` file handles all API requests, which are dispatched to Redux async thunks. The `pages` folder features `PokemonList.tsx`, which displays a list of Pokémon fetched from the API, and `PokemonDetails.tsx`, which shows the details of a Pokémon when a card is clicked. Routing is managed via `react-router-dom` in `App.tsx`, and Tailwind CSS is used for styling.
